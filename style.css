@@ -4,7 +4,8 @@ body {
 
 .carousel-soci{
     text-align: center; 
-    padding:10px 30px 30px 30px;
+    padding:0px 30px 30px 30px;
+
     display:block;
     font-weight: 100;
     width:100%;
@@ -22,48 +23,6 @@ body {
   margin-top:-10rem;
 }
 
-::before, :after{
-  box-sizing: border-box;
-}
-section{
-  display:block;
-}
-
-::selection{
-  background:#e9e9e9;
-}
-
-.container-fuild{
-  width: 100%;
-  padding-top: 0;
-  padding-left: 0;
-  margin-left: 0;
-  margin-right: 0;
-}
-.container-fuild:before{
-  display: table;
-  content: "";
-}
-.container-fuild:after{
-  clear: both;
-}
-.category-container {
-  position: absolute;
-  top:0;
-  left:0;
-  width: 100%;
-  height:100%
-}
-.category-content{
-  transform:translateY(-50%);
-  position:relative;
-  top:50%;
-}
-
-.jumbotron-jumbotron-fluidd {
-  display: flex;
-  text-align: center;
-}
 /* 
 .site-name {
   margin-bottom: 60px;
