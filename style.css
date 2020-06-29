@@ -1,13 +1,12 @@
+*{
+  padding:0;
+  margin:0;
+}
+
 body {
   padding-top:54px;
 } 
-.navbar-brand1{
-  position: absolute;
-  bottom:80px;
-  right: 10px;
-  z-index:1;
-  position: fixed;
-}
+
 /* #relative {
   position: absolute;
   bottom:80px;
