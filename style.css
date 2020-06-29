@@ -2,15 +2,12 @@ body {
   padding-top:54px;
 } 
 
-#top_btn
-{
-  position: fixed;
-  bottom: 10px;
+.navbar-brand1{
+  position: absolute;
+  bottom:80px;
   right: 10px;
-  
-  border-radius: 6px;
-  background-color: rgba(255, 100, 0, 0.8);
-  padding: 6px 3px;
+  z-index:1;
+  position: fixed;
 }
 /* #relative {
   position: absolute;
