@@ -1,8 +1,25 @@
+*{
+  margin:0;
+  position:0;
+}
+
+#relative {
+  position: absolute;
+  bottom:80px;
+  right: 10px;
+  z-index:1;
+  position: fixed;
+}
+#relative:hover {
+  opacity:.8;
+  transition-timing-function: 0.3s;
+  cursor: pointer;
+}
+
+
 body {
   padding-top:54px;
 } 
-
-
 
 .carousel-soci{
     text-align: center; 
@@ -25,19 +42,6 @@ body {
   margin-top:-10rem;
 }
 
-#relative {
-  position: absolute;
-  bottom:80px;
-  right: 10px;
-  z-index:1;
-  position: fixed;
-}
-/* #relative:hover {
-  opacity:.8;
-  transition-timing-function: 0.3s;
-  cursor: pointer;
-}
- */
 
 
 /* 
