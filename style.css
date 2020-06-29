@@ -1,4 +1,18 @@
-#relative {
+body {
+  padding-top:54px;
+} 
+
+#top_btn
+{
+  position: fixed;
+  bottom: 10px;
+  right: 10px;
+  
+  border-radius: 6px;
+  background-color: rgba(255, 100, 0, 0.8);
+  padding: 6px 3px;
+}
+/* #relative {
   position: absolute;
   bottom:80px;
   right: 10px;
@@ -9,12 +23,9 @@
   opacity:.8;
   transition-timing-function: 0.3s;
   cursor: pointer;
-}
+} */
 
 
-body {
-  padding-top:54px;
-} 
 
 .carousel-soci{
     text-align: center; 
