@@ -2,6 +2,8 @@ body {
   padding-top:54px;
 } 
 
+
+
 .carousel-soci{
     text-align: center; 
     padding:0px 30px 30px 30px;
@@ -22,6 +24,21 @@ body {
   background-color:black;
   margin-top:-10rem;
 }
+
+#relative {
+  position: absolute;
+  bottom:80px;
+  right: 10px;
+  z-index:1;
+  position: fixed;
+}
+#relative:hover {
+  opacity:.8;
+  transition-timing-function: 0.3s;
+  cursor: pointer;
+}
+
+
 
 /* 
 .site-name {
