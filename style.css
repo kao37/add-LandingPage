@@ -32,12 +32,12 @@ body {
   z-index:1;
   position: fixed;
 }
-#relative:hover {
+/* #relative:hover {
   opacity:.8;
   transition-timing-function: 0.3s;
   cursor: pointer;
 }
-
+ */
 
 
 /* 
