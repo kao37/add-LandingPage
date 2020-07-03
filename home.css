@@ -36,7 +36,7 @@ html,.home {
   
   @media (max-width: 995px) {.hometitle {font-size: 10.0rem;}}
   @media (max-width: 768px) {.hometitle {font-size: 7.5rem; }}
-  @media (max-width: 500px) {.hometitle {font-size: 6.5rem; }}
+  @media (max-width: 550px) {.hometitle {font-size: 6.5rem; }}
 
 p {
   font-size:2rem;  
