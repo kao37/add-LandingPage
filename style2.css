@@ -1,0 +1,60 @@
+*{
+  padding:0;
+  margin:0;
+}
+
+body {
+  padding-top:54px;
+} 
+
+/* #relative {
+  position: absolute;
+  bottom:80px;a
+  right: 10px;
+  z-index:1;
+  position: fixed;
+}
+#relative:hover {
+  opacity:.8;
+  transition-timing-function: 0.3s;
+  cursor: pointer;
+} */
+
+
+
+.carousel-soci{
+    text-align: center; 
+    padding:0px 30px 30px 30px;
+
+    display:block;
+    font-weight: 100;
+    width:100%;
+}
+
+.card-title{
+  text-align:center;
+  background:rgb(255, 217, 0);
+}
+
+.carousel-soci-hi{
+  width:100%;
+  height:80vh;
+  background-color:black;
+  margin-top:-10rem;
+}
+
+
+
+
+
+/* 
+.site-name {
+  margin-bottom: 60px;
+  font-family: 'Playfair Display', serif;
+}
+.btn-black {
+  border-radius: 0;
+  background-color: #000;
+  color: #fff;
+  font-family: 'Avenir', serif;
+} */

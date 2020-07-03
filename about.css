@@ -1,0 +1,56 @@
+*{
+  padding:0;
+  margin:0;
+}
+
+html,.home {
+  height:100%;
+  background-image: linear-gradient(to right, #eea2a2 0%, #bbc1bf 19%, #57c6e1 42%, #b49fda 79%, #7ac5d8 100%);
+  }
+  
+/* ナビ */
+.nav {
+  padding-top: 20px;
+}
+#active {
+  color: #df138a;
+  font-size:20px;
+}
+
+#na2:hover{
+  color:rgb(0, 136, 255);
+}
+
+#na2 {
+  color: rgb(255, 255, 94);
+  font-size:20px;
+}
+
+.hometitle {
+  font-family: 'Kalam';
+  font-size: 15.0rem;
+  bottom:50px;
+  color:white;
+  padding-top: 180px;  
+}
+
+.nav-item3 {
+  display: inline-block;
+  margin: 0 10px; 
+  padding-top: 0px;
+}
+
+.card-title{
+  border-bottom:solid 5px yellowgreen;
+}
+
+.aboutme{
+  width:200px;
+  height:200px;
+  display:inline-block;
+  border-radius: 50%;
+  margin-top:30px;
+}
+.card-textme{
+  text-align: left;
+}
