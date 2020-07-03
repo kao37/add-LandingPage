@@ -1,60 +1,104 @@
+
+
+
+
+
 *{
   padding:0;
   margin:0;
 }
 
-body {
-  padding-top:54px;
-} 
-
-/* #relative {
-  position: absolute;
-  bottom:80px;a
-  right: 10px;
-  z-index:1;
-  position: fixed;
+html,.home {
+  height:100%;
+  background-image: linear-gradient(to right, #eea2a2 0%, #bbc1bf 19%, #57c6e1 42%, #b49fda 79%, #7ac5d8 100%);
+  }
+  
+/* ナビ */
+.nav {
+  padding-top: 20px;
 }
-#relative:hover {
-  opacity:.8;
-  transition-timing-function: 0.3s;
-  cursor: pointer;
-} */
-
-
-
-.carousel-soci{
-    text-align: center; 
-    padding:0px 30px 30px 30px;
-
-    display:block;
-    font-weight: 100;
-    width:100%;
+#active {
+  color: #df138a;
+  font-size:20px;
 }
 
+#na2:hover{
+  color:rgb(0, 136, 255);
+}
+
+#na2 {
+  color: rgb(255, 255, 94);
+  font-size:20px;
+}
+
+.hometitle {
+  font-family: 'Kalam';
+  font-size: 15.0rem;
+  bottom:50px;
+  color:white;
+  padding-top: 180px;  
+}
+  
+  @media (max-width: 995px) {.hometitle {font-size: 10.0rem;}}
+  @media (max-width: 768px) {.hometitle {font-size: 7.5rem; }}
+  @media (max-width: 500px) {.hometitle {font-size: 6.5rem; }}
+
+p {
+  font-size:2rem;  
+  color:white;
+  font-family: 'Kosugi Maru', sans-serif;
+  text-align: center;
+}
+
+.nav-item3 {
+  display: inline-block;
+  margin: 0 10px; 
+  padding-top: 0px;
+}
+
+#end1{
+  margin-bottom: 10px;
+}
+
+/* Worksページ */
+.Works{
+  background-color:white;
+}
+
+h3 {
+  padding:20px;
+}
+
+.btn-outline-info {
+  margin:20px 0;   
+}
+
+div{
+  text-align: center;
+}
+
+.img-box{
+  padding:10px;
+}
 .card-title{
-  text-align:center;
-  background:rgb(255, 217, 0);
+  padding:10px;
+  border-bottom:solid 5px yellowgreen;
+  margin:20px 0;
+  text-align: center;
 }
 
-.carousel-soci-hi{
-  width:100%;
-  height:80vh;
-  background-color:black;
-  margin-top:-10rem;
+/* Aboutページ */
+.card-title2{
+  border-bottom:solid 5px yellowgreen;
+}
+.aboutme{
+  width:400px;
+  height:400px;
+  display:inline-block;
+  border-radius: 50%;
+  margin-top:30px;
 }
 
-
-
-
-
-/* 
-.site-name {
-  margin-bottom: 60px;
-  font-family: 'Playfair Display', serif;
+.p2{
+  color:black;
 }
-.btn-black {
-  border-radius: 0;
-  background-color: #000;
-  color: #fff;
-  font-family: 'Avenir', serif;
-} */
