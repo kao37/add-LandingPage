@@ -8,6 +8,20 @@ html,.home {
   background-image: white;
   }
   
+  #relative {
+    position: absolute;
+    bottom:80px;
+    right: 10px;
+    z-index:1;
+    position: fixed;
+  }
+  #relative:hover {
+    opacity:.8;
+    transition-timing-function: 0.3s;
+    cursor: pointer;
+  }
+  
+
 /* ナビ */
 .nav {
   padding-top: 20px;
