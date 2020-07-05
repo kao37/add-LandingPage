@@ -1,0 +1,69 @@
+* {
+  box-sizing:border-box
+  }
+
+html,.home {
+    height:100%;
+    background-image: linear-gradient(to right, #eea2a2 0%, #bbc1bf 19%, #57c6e1 42%, #b49fda 79%, #7ac5d8 100%);
+  }
+    
+  /* ナビ */
+  .nav {
+    padding-top: 20px;
+  }
+  #active {
+    color: #df138a;
+    font-size:20px;
+  }
+  #na2:hover{
+    color:rgb(0, 136, 255);
+  }
+  #na2 {
+    color: rgb(255, 255, 94);
+    font-size:20px;
+  }
+
+.hometitle {
+  font-family: 'Kalam';
+  font-size: 15.0rem;
+  bottom:50px;
+  color:white;
+  padding-top: 180px;  
+}
+
+.nav-item3 {
+  display: inline-block;
+  margin: 0 10px; 
+  padding-top: 0px;
+}
+
+.card-title{
+  border-bottom:solid 5px yellowgreen;
+}
+  
+  .nav-item3 {
+    display: inline-block;
+    margin: 0 10px; 
+    padding-top: 0px;
+  }
+  
+/* Container for skill bars */
+.container {
+  width: 100%; 
+}
+
+.skills {
+  text-align: right; /* Right-align text */
+  padding-top: 10px; /* Add top padding */
+  padding-bottom: 10px; /* Add bottom padding */
+  color: white; /* White text color */
+}
+
+.html {width: 90%; background-color: #4CAF50;} /* Green */
+.css {width: 80%; background-color: #2196F3;} /* Blue */
+.js {width: 65%; background-color: #f44336;} /* Red */
+.php {width: 60%; background-color: #808080;} /* Dark Grey */
+
+.skill{
+  background-color: white;
+}
