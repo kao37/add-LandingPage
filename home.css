@@ -82,6 +82,16 @@ div{
   text-align: center;
 }
 
+.card-title3{
+  border-bottom:solid 5px orange;
+}
+
+.card-title4{
+  border-bottom:solid 3px yellowgreen;
+}
+
+
+
 /* Aboutページ */
 .card-title2{
   border-bottom:solid 5px yellowgreen;
@@ -106,10 +116,3 @@ div{
   margin:0 auto;
 }
 
-.card-title3{
-  border-bottom:solid 5px orange;
-}
-
-.card-title4{
-  border-bottom:solid 3px yellowgreen;
-}
