@@ -64,6 +64,10 @@ html,.home {
 .js {width: 65%; background-color: #f44336;} /* Red */
 .php {width: 60%; background-color: #808080;} /* Dark Grey */
 
-.skill{
-  background-color: white;
+.Works{
+  background-color:white;
+}
+
+h3 {
+  padding:20px;
 }
