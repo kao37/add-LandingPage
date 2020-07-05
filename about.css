@@ -42,15 +42,22 @@ html,.home {
 
 .card-title{
   border-bottom:solid 5px yellowgreen;
+  text-align: center;
 }
 
-.aboutme {
-  width:200px;
-  height:200px;
-  display:inline-block;
-  border-radius: 50%;
-  margin-top:30px;
-}
+
 .card-textme{
   text-align: left;
+}
+
+.Works{
+  background-color:white;
+}
+
+h3 {
+  padding:20px;
+}
+
+p2{
+  font-size: 15px;
 }
