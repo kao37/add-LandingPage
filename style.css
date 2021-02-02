@@ -1,0 +1,108 @@
+*{
+  padding:0;
+  margin:0;
+}
+
+html,.home {
+  height:100%;
+  background-image: linear-gradient(to right, #eea2a2 0%, #bbc1bf 19%, #57c6e1 42%, #b49fda 79%, #7ac5d8 100%);
+  }
+  
+/* ナビ */
+.nav {
+  padding-top: 20px;
+}
+#active {
+  color: #df138a;
+  font-size:20px;
+}
+
+#na2:hover{
+  color:rgb(0, 136, 255);
+}
+
+#na2 {
+  color: rgb(255, 255, 94);
+  font-size:20px;
+}
+
+.hometitle {
+  font-family: 'Kalam';
+  font-size: 15.0rem;
+  bottom:50px;
+  color:white;
+  padding-top: 180px;  
+}
+  
+  @media (max-width: 995px) {.hometitle {font-size: 10.0rem;}}
+  @media (max-width: 768px) {.hometitle {font-size: 7.5rem; }}
+  @media (max-width: 550px) {.hometitle {font-size: 6.5rem; }}
+
+p {
+  font-size:2rem;  
+  color:white;
+  font-family: 'Kosugi Maru', sans-serif;
+  text-align: center;
+}
+
+.nav-item3 {
+  display: inline-block;
+  margin: 0 10px; 
+  padding-top: 0px;
+}
+
+#end1{
+  margin-bottom: 10px;
+}
+
+/* Worksページ */
+.Works{
+  background-color:white;
+}
+
+h3 {
+  padding:20px;
+}
+
+.btn-outline-info {
+  margin:20px 0;   
+}
+
+div{
+  text-align: center;
+}
+
+.img-box{
+  padding:10px;
+}
+.card-title{
+  padding:10px;
+  border-bottom:solid 5px yellowgreen;
+  margin:20px 0;
+  text-align: center;
+}
+
+/* Aboutページ */
+.card-title2{
+  border-bottom:solid 5px yellowgreen;
+}
+.aboutme{
+  width:400px;
+  height:400px;
+  display:inline-block;
+  border-radius: 50%;
+  margin-top:30px;
+}
+
+.p2{
+  color:black;
+}
+
+.white{
+  background-color: white;
+  width:560px;
+  height:680px;
+  text-align: center;
+  margin:0 auto;
+}
+
